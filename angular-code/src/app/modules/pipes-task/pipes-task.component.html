@@ -1,1 +1,4 @@
-<p>pipes-task works!</p>
+<h3> Pipe - custome sort </h3>
+<ul>
+  <li *ngFor="let item of options | customSort: ['name', '-price']">{{item.name}} - {{item.price | currency}}</li>
+</ul>

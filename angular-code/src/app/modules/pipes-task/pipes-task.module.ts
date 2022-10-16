@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PipesTaskComponent } from './pipes-task.component';
+import { CustomSortPipe } from 'src/app/shared/pipes/custom-sort.pipe';
 
 @NgModule({
   declarations: [
-    PipesTaskComponent
+    PipesTaskComponent,
+    CustomSortPipe
   ],
   imports: [
     CommonModule
