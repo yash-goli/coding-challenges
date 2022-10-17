@@ -17,6 +17,10 @@ const deepCopy = (obj) => {
           const childObj = createObject(value, {});
           newObj[key] = childObj;
           break;
+        case 'Date':
+          const dateObj = new Date(value.getTime());
+          newObj[key] = dateObj;
+          break;
         default:
           newObj[key] = value;
           break;
