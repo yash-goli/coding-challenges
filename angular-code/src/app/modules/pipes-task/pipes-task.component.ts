@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faker } from '@faker-js/faker';
-import { Option } from './pipes-task.model';
+import { Option } from '../../shared/models/pipes-task.model';
 
 @Component({
   selector: 'app-pipes-task',

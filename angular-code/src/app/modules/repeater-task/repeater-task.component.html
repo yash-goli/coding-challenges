@@ -1,1 +1,3 @@
-<p>repeater-task works!</p>
+<ng-container *ngFor="let item of options" [ngTemplateOutlet]="template" [ngTemplateOutletContext]="{item: item}">
+</ng-container>
+

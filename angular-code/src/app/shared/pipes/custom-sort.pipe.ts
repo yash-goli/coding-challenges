@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { Option } from 'src/app/modules/pipes-task/pipes-task.model';
+import { Option } from 'src/app/shared/models/pipes-task.model';
 
 @Pipe({
   name: 'customSort'
